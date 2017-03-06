@@ -126,6 +126,18 @@ Text macros that are used for quickly inserting common snippets of code ([see Bl
 fun
 lib
 apply
+
+# press CTRL+I for reintending code
+test <- function() {
+   hello <- "hello"
+  if(is.character(hello)){
+    print(hello)
+          print("world")
+      print("how are you?")
+  }
+   print(" - I feel obeserved")
+}
+test()
 ```
 
 
