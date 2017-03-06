@@ -36,13 +36,15 @@ Visit [![](https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-
 ![](https://www.rstudio.com/wp-content/uploads/2015/10/rstudio-300x260.png)  
 
 <br><br>
-Version 1.0.136  
-**-> Check for Updates**.  
+Latest Version  
+1.0.136  
+
+### -> Check for Updates.  
 </div>
 
 
 
-## Pane Layout (left)
+## Pane Layout (left)!
 <!--
 Keep an eye on TR pane - *Build* (packaging) and *Git* (versioning) appear here.
 -->
@@ -77,7 +79,7 @@ plot(women)  #Average Heights and Weights for American Women
 
 
 
-## Pane Layout (right)
+## Pane Layout (right)!
 <!--
 History Shortcut Console only
 Avoid Print() in For-loop, slows down processing
@@ -104,7 +106,7 @@ Avoid Print() in For-loop, slows down processing
 
 
 
-## Keyboard Shortcuts 1
+## Keyboard Shortcuts 1!
 ### Multicursor
 Select multiple lines/positions for parallel editing  
 - w. Mouse: `CTRL+ALT+Click`  
@@ -128,19 +130,19 @@ apply
 
 
 
-## Keyboard Shortcuts 2
+## Keyboard Shortcuts 2!
 Press `SHIFT+ALT+K` for "all" shortcuts:  
 ![](extras/Keyboard.png)
 
 
 
-## Cheatsheets
+## Cheatsheets!
 Open cheat sheets for `ggplot2`, `markdown`, and `more` directly from the menu bar.
 ![](extras/Cheatsheets.png)
 
 
 
-## Addins
+## Addins!
 <div class="columns-2">
 How to install RStudio Addins?  
 ```{r}
@@ -148,7 +150,7 @@ How to install RStudio Addins?
 addinslist:::addinslistAddin()
 ```
 
-**Example Color Picker**  
+### Example Color Picker  
 - Browse Addins  
 - Install `colourpicker`  
 - Click `Addins > Colour picker`  
