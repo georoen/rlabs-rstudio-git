@@ -14,22 +14,22 @@ knitr::opts_chunk$set(eval = FALSE)
 ## Why R Studio?
 
 <!-- 
-As most of you I came to R because of remote sensing. But why did we all install RStudio? Many other development enviroments exist.  
+As most of you I came to R because of remote sensing. But why did we all install RStudio? Many other R  programs exist.  
 
 An IDE houses supporting functions as *Editor*, *Console* and *Plots* integrated into one specific Program.  
-Since it's relase six years ago (29.2.2011) Rstudio is housing everything we need in everydays R sessions.  
+Since it's release six years ago (29.2.2011) RStudio is housing everything we need in everyday R sessions.  
 Their developers also create popular packages to expand the features of R. Includes ggplot2, R Markdown & more. 
-Who of you has heared of Hadley Wickham, the Chief Scientist at RStudio?  
-He latly published the book "R for Data Science", documenting these packages to a broad user base from all diverent kind of sciences.  
+Who of you has heard of Hadley Wickham, the Chief Scientist at RStudio?  
+He lately published the book "R for Data Science", documenting these packages to a broad user base from all different kind of sciences.  
 
 So RStudio is developed from Users for Users. Providing us advanced tools and user interface for developing high quality code. 
 -->
 
 - *Integrated development environment* (IDE)  
 -> Editor, Console, Plots, Versioning and more.  
-- *R* is a widly spread data science language.
-- *RStudio* is devoloped from useRs for useRs  
-- It's free and opensource ❤️  
+- *R* is a widely spread data science language.
+- *RStudio* is developed from useRs for useRs  
+- It's free and open source ❤️  
 
 <div class="columns-2">
 [![](https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png)  ](https://www.rstudio.com/)  
@@ -44,7 +44,7 @@ Version 1.0.136
 
 ## Pane Layout (left)
 <!--
-Keep an eye on TR pane - *Build* (packaging) and *Git* (versioning) apeare here.
+Keep an eye on TR pane - *Build* (packaging) and *Git* (versioning) appear here.
 -->
 
 <div class="columns-2">
@@ -68,19 +68,19 @@ plot(women)  #Average Heights and Weights for American Women
 <br>  
 
 ### Console  
-- Execute comands  
+- Execute commands  
 - Print output
-- Comand History `CTRL+UP/DOWN`  
+- Command History `CTRL+UP/DOWN`  
 ![GIF](https://i0.wp.com/www.rstudio.com/wp-content/uploads/2016/11/tip_console.gif?w=456)  
 
 </div>
 
 
 
-## Pane Layout (rigth)
+## Pane Layout (right)
 <!--
 History Shortcut Console only
-Avoid Print() in Forloop, slows down processing
+Avoid Print() in For-loop, slows down processing
 -->
 
 <div class="columns-2">
@@ -91,7 +91,7 @@ Avoid Print() in Forloop, slows down processing
 ### Files  
 - Browse files / rename  
 - `setwd()` [MORE]  
-- open native filebrowser [...]  
+- open native file browser [...]  
 
 ### Packages  
 - `library()` / `detach()`  
@@ -106,10 +106,10 @@ Avoid Print() in Forloop, slows down processing
 
 ## Keyboard Shortcuts 1
 ### Multicursor
-Select multiple lines/positions for parallel edeting  
-- w. Mouse: `CRTL+ALT+Click`  
-- keyboard: `CRTL+ALT+UP/DOWN`  
-- rename variable:  Select it and `CRTL+ALT+K`  
+Select multiple lines/positions for parallel editing  
+- w. Mouse: `CTRL+ALT+Click`  
+- keyboard: `CTRL+ALT+UP/DOWN`  
+- rename variable:  Select it and `CTRL+ALT+K`  
 
 ### Code snippets
 Text macros that are used for quickly inserting common snippets of code ([see Blog](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets)). 
@@ -135,7 +135,7 @@ Press `SHIFT+ALT+K` for "all" shortcuts:
 
 
 ## Cheatsheets
-Open cheatsheets for `ggplot2`, `markdown`, and `more` directly from the menu bar.
+Open cheat sheets for `ggplot2`, `markdown`, and `more` directly from the menu bar.
 ![](extras/Cheatsheets.png)
 
 
@@ -170,7 +170,7 @@ Why not add an extra file organizing your R sessions?
 
 ### Project file `.Rproj`
 - Automatically `setwd()`  
-- Load `.Rdata` enviroment  
+- Load `.Rdata` environment  
 - Load `.Rhistory`
 - Easily switch between projects
 - Build packages
@@ -182,15 +182,15 @@ Why not add an extra file organizing your R sessions?
 
 
 
-## Why Versioninig?
+## Why Versioning?
 <!--
 While developing code files are changed - that's a fact.  
-On the other hand you migth not want to touch a running system. 
+On the other hand you might not want to touch a running system. 
 How to keep track of changes?
 
-Though this screenshot is a mockup, every file name includes date and a message
+Though this screen shot is a mockup, every file name includes date and a message
 -->
-Traditionell workflow:  
+Traditional workflow:  
 `edit -> save as -> `edit -> save as -> ... 
 A good file name includes date and a message  
 
@@ -263,7 +263,7 @@ Check project options.
 </div>
 ## Workflow
 - Stage:        Select file for next commit. Freezes state.
-- Commit:       Create new node in timeline. Add a message. 
+- Commit:       Create new node in time line. Add a message. 
 - Push & pull:  Interact with remote repository.
 
 <img src="extras/Git-workflow.png"  width="90%" />  
@@ -272,16 +272,16 @@ Check project options.
   
 ## References
 <div class="columns-2">
-- [Rstudio IDE Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)  
+- [RStudio IDE Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)  
 - [R Notebooks](http://rmarkdown.rstudio.com/r_notebooks.html)  
 - [Code Snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?version=1.0.136&mode=desktop)  
 - [Addin](https://www.r-bloggers.com/an-awesome-rstudio-addin-for-selecting-colours-and-another-for-adding-marginal-density-plots-to-ggplot2/)  
-- [Version Control in RSudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)  
+- [Version Control in RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)  
 - [Git Documentation](https://git-scm.com/doc)
 
 <br> 
 
-### Acess this presentation
+### Access this presentation
 github.com/tba...  
 
 <br> 
