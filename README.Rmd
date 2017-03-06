@@ -32,8 +32,8 @@ So RStudio is developed from Users for Users. Providing us advanced tools and us
 - It's free and open source ❤️  
 
 <div class="columns-2">
-[![](https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png)  ](https://www.rstudio.com/)  
-![](https://rstudio.com/wp-content/uploads/2015/10/r-packages.png)  
+Visit [![](https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png)  ](https://www.rstudio.com/) .com  
+![](https://www.rstudio.com/wp-content/uploads/2015/10/rstudio-300x260.png)  
 
 <br><br>
 Version 1.0.136  
@@ -272,7 +272,7 @@ Check project options.
   
 ## References
 <div class="columns-2">
-- [RStudio IDE Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)  
+- [Somw RStudio Tipps](https://www.r-bloggers.com/rstudio-ide-easy-tricks-you-mightve-missed/)  
 - [R Notebooks](http://rmarkdown.rstudio.com/r_notebooks.html)  
 - [Code Snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?version=1.0.136&mode=desktop)  
 - [Addin](https://www.r-bloggers.com/an-awesome-rstudio-addin-for-selecting-colours-and-another-for-adding-marginal-density-plots-to-ggplot2/)  
