@@ -215,6 +215,14 @@ A good file name includes date and a message
 
 
 ## Git
+<!--
+APushing is optional, interaction with cloud.
+- bitbucket inlcudes privat repositories by default 
+- github has biggest community. Privat repositories for free with uni-wuerzburg email adress. See:  https://education.github.com/pack/offers
+
+lso see SVN, which is also well implemented into the User-Interface.
+-->
+
 Versioning tools like `git` keeps track of file changes.  
 Workflow: `work` with file -> `save` -> `stage` -> `commit` ( -> `push` )  
 Commit includes date and message  
