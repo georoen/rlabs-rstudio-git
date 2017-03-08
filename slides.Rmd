@@ -302,7 +302,8 @@ Git and SVN
 <br> 
 
 ### Presentation
-- [Access on github](https://github.com/georoen/rlabs-rstudio-git)
+- [Access on github](https://github.com/georoen/rlabs-rstudio-git/blob/master/rlabs.pdf)  
+github.com/georoen
 
 <br> 
 
