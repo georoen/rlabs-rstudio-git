@@ -11,7 +11,7 @@ knitr::opts_chunk$set(eval = FALSE)
 
 
 
-## Why R Studio?
+## R Studio?
 
 <!-- 
 As most of you I came to R because of remote sensing. But why did we all install RStudio? Many other R  programs exist.  
@@ -36,12 +36,12 @@ Visit [![](https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-
 ![](https://www.rstudio.com/wp-content/uploads/2015/10/rstudio-300x260.png)  
 
 <br><br>
+
 Latest Version  
 1.0.136  
 
-### -> Check for Updates.  
+### -> Check for Updates  
 </div>
-
 
 
 ## Pane Layout (left)!
@@ -102,7 +102,7 @@ plot(women)  #Average Heights and Weights for American Women
 ## Keyboard Shortcuts 1!
 ### Multicursor
 Select multiple lines/positions for parallel editing  
-- w. Mouse: `CTRL+ALT+Click`  
+- with Mouse: `CTRL+ALT+Click`  
 - keyboard: `CTRL+ALT+UP/DOWN`  
 - rename variable:  Select it and `CTRL+ALT+K`  
 
@@ -155,7 +155,7 @@ Open cheat sheets for `ggplot2`, `markdown`, and `more` directly from the menu b
 
 
 
-## Addins!
+## Addins
 <div class="columns-2">
 How to install RStudio Addins?  
 ```{r}
@@ -301,8 +301,8 @@ Git and SVN
 
 <br> 
 
-### Access this presentation
-github.com/tba...  
+### Presentation
+- [Access on github](https://github.com/georoen/rlabs-rstudio-git)
 
 <br> 
 
