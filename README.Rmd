@@ -19,15 +19,15 @@ As most of you I came to R because of remote sensing. But why did we all install
 An IDE houses supporting functions as *Editor*, *Console* and *Plots* integrated into one specific Program.  
 Since it's release six years ago (29.2.2011) RStudio is housing everything we need in everyday R sessions.  
 Their developers also create popular packages to expand the features of R. Includes ggplot2, R Markdown & more. 
-Who of you has heard of Hadley Wickham, the Chief Scientist at RStudio?  
+ Who of you has heard of Hadley Wickham, the Chief Scientist at RStudio?  
 He lately published the book "R for Data Science", documenting these packages to a broad user base from all different kind of sciences.  
 
 So RStudio is developed from Users for Users. Providing us advanced tools and user interface for developing high quality code. 
 -->
 
 - *Integrated development environment* (IDE)  
--> Editor, Console, Plots, Versioning and more.  
-- *R* is a widely spread data science language.
+-> Editor, Console, Plots, Versioning and more  
+- *R* is a widely spread data science language
 - *RStudio* is developed from useRs for useRs  
 - It's free and open source ❤️  
 
@@ -45,50 +45,45 @@ Latest Version
 
 
 ## Pane Layout (left)!
-<!--
-Keep an eye on TR pane - *Build* (packaging) and *Git* (versioning) appear here.
--->
-
 <div class="columns-2">
+
 ### Editor  
-- Show code in new Window  
+- Show code in new window  
 - Jump to function (F2)  
-- File Navigation  
-- Multicursor (CTRL+ALT+Click)
+- File navigation  
+- Multicursor
+
+### Console  
+ Execute commands  
+- Print output  <!-- Avoid Print() in For-loop, slows down processing -->
+- Command history  <!-- `CTRL+UP/DOWN` Console only-->
+
+<br>  
+<br>  
 
 ### R Notebooks  
 - Document inside code
 - Save results as `.html` / `.pdf`
-- Gallery view plots
+- Gallery view plots  
+<img src="http://rmarkdown.rstudio.com/images/notebook-demo.png", width="100%" />
+</div>
 
 ```{r, echo=FALSE}
+1+2
+seq(1,10)
+
 plot(cars)  #Speed and Stopping Distances of Cars
 plot(sleep)  #Student's Sleep Data
 plot(women)  #Average Heights and Weights for American Women
 ```
 
-<br>  
-
-### Console  
-- Execute commands  
-- Print output
-- Command History `CTRL+UP/DOWN`  
-![GIF](https://i0.wp.com/www.rstudio.com/wp-content/uploads/2016/11/tip_console.gif?w=456)  
-
-</div>
-
 
 
 ## Pane Layout (right)!
-<!--
-History Shortcut Console only
-Avoid Print() in For-loop, slows down processing
--->
-
 <div class="columns-2">
-### Data, History  & more
 
-<br>  
+### Enviroment, History
++ Additional Panes  <!-- git + build tool appear here -->
 
 ### Files  
 - Browse files / rename  
@@ -97,11 +92,9 @@ Avoid Print() in For-loop, slows down processing
 
 ### Packages  
 - `library()` / `detach()`  
-- `install.packages`  
--> install `addinlist`  
+- `install.packages()` 
 
 ![](extras/Topright-Pane.png)
-
 </div>
 
 
@@ -113,6 +106,14 @@ Select multiple lines/positions for parallel editing
 - keyboard: `CTRL+ALT+UP/DOWN`  
 - rename variable:  Select it and `CTRL+ALT+K`  
 
+```{r, eval=FALSE, include=FALSE}
+test2 <- 0
+test2 <- function(test2) {
+  test2
+  test3
+}
+```
+
 ### Code snippets
 Text macros that are used for quickly inserting common snippets of code ([see Blog](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets)). 
 - Try `fun`, `lib`, `apply`, ...  
@@ -123,8 +124,8 @@ Text macros that are used for quickly inserting common snippets of code ([see Bl
 ### Test out
 ```{r}
 # type `fun` and press TAB for shifting through arguments
-fun
-lib
+ffun
+ib
 apply
 
 # press CTRL+I for reintending code
@@ -196,7 +197,7 @@ Why not add an extra file organizing your R sessions?
 
 
 
-## Why Versioning?
+## Versioning
 <!--
 While developing code files are changed - that's a fact.  
 On the other hand you might not want to touch a running system. 
@@ -204,9 +205,8 @@ How to keep track of changes?
 
 Though this screen shot is a mockup, every file name includes date and a message
 -->
-Traditional workflow:  
-`edit -> save as -> `edit -> save as -> ... 
-A good file name includes date and a message  
+`edit -> save as`  
+File name includes date and message  
 
 <br>
 
@@ -214,18 +214,10 @@ A good file name includes date and a message
 
 
 
-## Git
-<!--
-APushing is optional, interaction with cloud.
-- bitbucket inlcudes privat repositories by default 
-- github has biggest community. Privat repositories for free with uni-wuerzburg email adress. See:  https://education.github.com/pack/offers
-
-lso see SVN, which is also well implemented into the User-Interface.
--->
-
-Versioning tools like `git` keeps track of file changes.  
-Workflow: `work` with file -> `save` -> `stage` -> `commit` ( -> `push` )  
+## Versioning with Git
+edit -> save `-> stage -> commit`  
 Commit includes date and message  
+Versioning tools like `git` keeps track of file changes  
 
 <br>
 <div class="columns-2">
@@ -236,7 +228,6 @@ Commit includes date and message
 ### RStudio Implementation  
 <img src="extras/Git-RstudioHistory.png"  width="80%" />  
 </div>
-
 
 
 ## Configure Git
@@ -257,14 +248,24 @@ Commit includes date and message
 - New pane (topright)  
 <img src="extras/Git-RstudioPane.png"  width="70%" />  
 
-- Connect to cloud  
-e.g. Github
+- Interact w. cloud (opt-in)  
+e.g. Github / Bitbucket
 </div>
 
-
+<!--
+Interaction with cloud, push&pull is optional.
+- bitbucket inlcudes privat repositories by default 
+- github has biggest community. Privat repositories for free with uni-wuerzburg email adress. See:  https://education.github.com/pack/offers
+-->
 
 ## Getting Started
 <div class="columns-2">
+
+### New Project
+`Menu > File > New Project`  
+<img src="extras/Project-New.png"  width="90%" />  
+
+<br>  
 
 ### Existing Directory
 - Open directory in `terminal`. 
@@ -275,12 +276,6 @@ e.g. Github
 
 > Troubleshoot:  
 Check project options.
-
-<br>  
-
-### New Project
-`Menu > File > New Project`  
-<img src="extras/Project-New.png"  width="90%" />  
 
 </div>
 ## Workflow
@@ -294,11 +289,14 @@ Check project options.
   
 ## References
 <div class="columns-2">
-- [Somw RStudio Tipps](https://www.r-bloggers.com/rstudio-ide-easy-tricks-you-mightve-missed/)  
+Rstudio  
+- [Some RStudio Tipps](https://www.r-bloggers.com/rstudio-ide-easy-tricks-you-mightve-missed/)  
 - [R Notebooks](http://rmarkdown.rstudio.com/r_notebooks.html)  
 - [Code Snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?version=1.0.136&mode=desktop)  
-- [Addin](https://www.r-bloggers.com/an-awesome-rstudio-addin-for-selecting-colours-and-another-for-adding-marginal-density-plots-to-ggplot2/)  
-- [Version Control in RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)  
+- [Colour Picker Addin](https://www.r-bloggers.com/an-awesome-rstudio-addin-for-selecting-colours-and-another-for-adding-marginal-density-plots-to-ggplot2/)  
+
+Git and SVN  
+- [Version Control in RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)   
 - [Git Documentation](https://git-scm.com/doc)
 
 <br> 
