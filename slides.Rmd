@@ -130,13 +130,13 @@ apply
 
 # press CTRL+I for reintending code
 test <- function() {
-   hello <- "hello"
+  hello <- "hello"
   if(is.character(hello)){
     print(hello)
-          print("world")
-      print("how are you?")
+    print("world")
+    print("how are you?")
   }
-   print(" - I feel obeserved")
+  print(" - I feel obeserved")
 }
 test()
 ```
