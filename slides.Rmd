@@ -1,9 +1,10 @@
 ---
-title: "RStudio  +  Git  =  🚀"
+title: "RStudio  +  Git  =  \U0001F680"
 author: "jeroen.staab@posteo.de"
-date: "9.3.2017"
+date: "15.7.2020"
 output:
   ioslides_presentation: default
+  beamer_presentation: default
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(eval = FALSE)
@@ -33,14 +34,10 @@ So RStudio is developed from Users for Users. Providing us advanced tools and us
 
 <div class="columns-2">
 Visit [![](https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png)  ](https://www.rstudio.com/) .com  
-![](https://www.rstudio.com/wp-content/uploads/2015/10/rstudio-300x260.png)  
+
 
 <br><br>
-
-Latest Version  
-1.0.136  
-
-### -> Check for Updates  
+<img src="extras/RstudioCanvas.png" width = 100%/>
 </div>
 
 
@@ -62,10 +59,7 @@ Latest Version
 <br>  
 
 ### R Notebooks  
-- Document inside code
-- Save results as `.html` / `.pdf`
-- Gallery view plots  
-<img src="http://rmarkdown.rstudio.com/images/notebook-demo.png", width="100%" />
+<img src="https://rmarkdown.rstudio.com/images/notebook-demo.png" width="100%" />
 </div>
 
 ```{r, echo=FALSE}
@@ -150,8 +144,8 @@ Press `SHIFT+ALT+K` for "all" shortcuts:
 
 
 ## Cheatsheets!
-Open cheat sheets for `ggplot2`, `markdown`, and `more` directly from the menu bar.
-![](extras/Cheatsheets.png)
+Open cheat sheets for `ggplot2`, `markdown`, and `more` directly from the menu bar:  
+<img src="extras/Cheatsheets.png" width = 150%\>
 
 
 
@@ -258,16 +252,16 @@ Interaction with cloud, push&pull is optional.
 - github has biggest community. Privat repositories for free with uni-wuerzburg email adress. See:  https://education.github.com/pack/offers
 -->
 
-## Getting Started
+## Getting Started…
 <div class="columns-2">
 
-### New Project
+### … 1. Rstudio Project
 `Menu > File > New Project`  
 <img src="extras/Project-New.png"  width="90%" />  
 
 <br>  
 
-### Existing Directory
+### … 2. Git Repository
 - Open directory in `terminal`. 
 - Type `git init`
 - `Restart` RStudio.  
@@ -307,5 +301,5 @@ github.com/georoen
 
 <br> 
 
-<img src="extras/ThankYou.png"  width="100%" />  
+<img src="extras/ThankYou.png"  width="70%" />  
 </div>
